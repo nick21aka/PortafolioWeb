@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- Font Awesome -->
+        <link href="./assets/vendor/font-awesome/fontawesome.css" rel="stylesheet" />
+        <link href="./assets/vendor/font-awesome/brands.css" rel="stylesheet" />
+        <link href="./assets/vendor/font-awesome/solid.css" rel="stylesheet" />
+        <!-- Normalize -->
+        <link rel="stylesheet" href="./assets/vendor/normalize/normalize.css">
+        <!-- bootstrap 5.3 -->
+        <link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.css">
+        <!-- Estilos personalizados -->
+   
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    
+</head>
+<body>
+    <section class="weather-content p-6" id="clima">
+        <h1>Buscador del clima</h1>
+        <div class="result">
+            <p>Agrege cuidad y pais</p>
+            
+        </div>
+        <form action="" method="POST" class="get-weather">
+            <input type="text" name="city" id="city" placeholder="Escribe tu cuidad">
+            <select name="" id="country">
+                <option disabled selected value="">Selecciona el pais</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">México</option>
+                <option value="PE">Perú</option>
+                <option value="CL">Chile</option>
+            </select>
+            <input type="submit" name="" id="" value="Obtener el tiempo">
+        </form>
+      </section>
+
+
+      <script src="./assets/js/script.js"></script>
+      <script src="./assets/vendor/jquery-3.7.1.min.js"></script>
+</body>
+</html>
