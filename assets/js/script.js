@@ -84,3 +84,24 @@ function clearHTML(){
 }
 
 
+let signUp = document.getElementById("signUp");
+let signIn = document.getElementById("signIn");
+let nameImput = document.getElementById("nameImput");
+let title = document.getElementById("title");
+
+signIn.onclick = function() {
+
+    nameImput.style.maxHeight = "0";
+    title.innerHTML = "Login";
+    signUp.classList.add("");
+    signIn.classList.remove("disable");
+}
+
+signUp.onclick = function() {
+
+    nameImput.style.maxHeight = "60";
+    title.innerHTML = "Registro";
+    signUp.classList.remove("disable");
+    signIn.classList.add("disable");
+}
+

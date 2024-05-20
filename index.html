@@ -13,22 +13,47 @@
       <!-- bootstrap 5.3 -->
       <link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.css">
 
-
+   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   
-  <title>Document</title>
+  <title>Portafolio Web</title>
   
 </head>
 <body>
-
-
+ <!-- MENU -->
+ <nav class="navbar border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#seccion-contacto">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Habilidades</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
 
   <div class="container">
     
     
-    <!-- MENU -->
-
+   
+    
+  
 
 
     <!-- introduccion -->
@@ -64,7 +89,7 @@
         <img src="./assets/img/WhatsApp Image 2024-05-08 at 17.06.37 (2).jpeg" alt="">
       </div>
     </div>
-    <div class="skill">
+    <div class="skill" id="skills">
       <h1 class="title">Mis habilidades</h1>
       
       <div class="ListSkill">
@@ -91,7 +116,7 @@
 
       <div class="ListProyect">
         <div class="item w-600">
-          <a href="http://127.0.0.1:5500/PortafolioWeb/clima.html">
+          <a href="./clima.html">
           
             <img src="./assets/img/CLIMA.png" alt="">
             <div class="name" style="color: green;">Clima</div>
@@ -101,7 +126,7 @@
         </div>
 
         <div class="item">
-          <a href="">
+          <a href="./Registro.html">
           
             <img src="./assets/img/LOGIN.png" alt="">
             <div class="name">Login</div>
@@ -111,7 +136,7 @@
         </div>
 
         <div class="item">
-          <a href="http://127.0.0.1:5500/PortafolioWeb/Pokedex.html">
+          <a href="./Pokedex.html">
 
             <img src="./assets/img/pokedex.png" alt="">
             <div class="name">Pokedex</div>
@@ -121,7 +146,11 @@
       </div>
     </div>
 
-    <div class="conta">
+  
+    
+
+    
+      </div>
       <h1 class="title">Mis Redes Sociales</h1>
       <ul class="contact">
         <a href="https://web.facebook.com/nsilvacardenas1">
@@ -136,7 +165,67 @@
       </ul>
     </div>
 
+
+  
+    
+
   </div>
+
+                         <!-- SECCION CONTACTOS-->
+
+
+<section id="seccion-contacto" class="banner">
+  
+
+
+
+  <!-- CONTENEDOR DEL FORMULARIO -->
+
+
+<div class="container  my-5" id="contenedor-formulario">
+<div class="text-center mb-4" id="titulo-formulario">
+<div><img src="" alt="" class="img-fluid ps-5"></div>
+<h2>Contactanos</h2>
+</div>
+
+
+
+<form   method="POST" data-netlify="true" action="#">     
+<div class= "mb-3">           
+<input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+</div>
+
+
+<div class="mb-3">            
+<input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+</div>
+
+
+<div class="mb-3">
+<input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+</div>
+
+<div class="mb-3">       
+<textarea class="form-control" name="message" id="message" rows="4"></textarea>
+</div>
+
+<div class="mb-3">
+<button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+</div>
+
+</form>
+
+
+
+
+
+
+
+
+</div>
+</section>
+
+
 
 
       <!-- Bootstrap JS -->
